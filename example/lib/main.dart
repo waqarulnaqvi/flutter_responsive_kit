@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_responsive_kit/flutter_responsive_kit.dart';
+import 'package:flutter_responsive_plus/flutter_responsive_plus.dart';
 
 void main() => runApp(const ExampleApp());
 
@@ -30,7 +30,7 @@ class ExampleApp extends StatelessWidget {
           fontFamily: null,
         );
         return MaterialApp(
-          title: 'flutter_responsive_kit v2.0',
+          title: 'flutter_responsive_plus v2.0',
           debugShowCheckedModeBanner: false,
           theme: theme,
           // ── ResKit.builder at root level ──────────────────────────

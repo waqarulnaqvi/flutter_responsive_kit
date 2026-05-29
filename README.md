@@ -36,7 +36,7 @@ dependencies:
 ```
 
 ```dart
-import 'package:flutter_responsive_kit/flutter_responsive_kit.dart';
+import 'package:flutter_responsive_plus/flutter_responsive_plus.dart';
 ```
 
 ---
@@ -490,7 +490,7 @@ ResKitUtils.diagnosticMap() // → Map<String, dynamic>
 
 ## Migration from flutter_screenutil
 
-| flutter_screenutil | flutter_responsive_kit |
+| flutter_screenutil | flutter_responsive_plus |
 |---|---|
 | `ScreenUtil.init()` inside build | `ResponsiveKit(config:…)` at root, once |
 | `200.w` `100.h` `12.r` `16.sp` | ✅ identical — no migration needed |

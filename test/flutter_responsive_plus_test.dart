@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_responsive_kit/flutter_responsive_kit.dart';
+import 'package:flutter_responsive_plus/flutter_responsive_plus.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 // ─────────────────────────────────────────────────────────────────────────────

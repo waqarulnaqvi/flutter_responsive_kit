@@ -1,4 +1,4 @@
-/// flutter_responsive_kit v2.0 — The Complete Flutter Responsive Toolkit
+/// flutter_responsive_plus v2.0 — The Complete Flutter Responsive Toolkit
 ///
 /// Single import gives you everything:
 ///
@@ -62,7 +62,7 @@
 ///
 /// UTILS
 ///   [ResKitUtils]           — grid math, aspect-fit, safe-area, debug
-library flutter_responsive_kit;
+library flutter_responsive_plus;
 
 // Core
 export 'src/core/res_kit.dart';

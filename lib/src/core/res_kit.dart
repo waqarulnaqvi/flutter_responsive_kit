@@ -30,7 +30,7 @@ class ResKit {
 
   static void _assertInit() {
     assert(_initialised,
-      '\n[flutter_responsive_kit] ResKit not initialised!\n'
+      '\n[flutter_responsive_plus] ResKit not initialised!\n'
       'Wrap your app root with ResponsiveKit(config: ResKitConfig(…), child: …)\n');
   }
 
@@ -266,7 +266,7 @@ class ResKit {
     // ignore: avoid_print
     print('''
 [ResKit] $sep
-[ResKit] 📱  flutter_responsive_kit v2.0 — Diagnostic Dump
+[ResKit] 📱  flutter_responsive_plus v2.0 — Diagnostic Dump
 [ResKit] $sep
 [ResKit] ── Design Config ───────────────────────────────────────────────
 [ResKit]   Mode           : ${d != null ? 'Multi-canvas (per-breakpoint)' : 'Single-canvas'}

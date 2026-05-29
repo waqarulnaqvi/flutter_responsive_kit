@@ -1,7 +1,7 @@
-name: flutter_responsive_kit
+name: flutter_responsive_plus
 description: The ultimate Flutter responsive toolkit — Figma scaling, adaptive layouts, typography, spacing, grid, navigation, RTL, and theme integration.
 version: 1.0.2
-repository: https://github.com/waqarulnaqvi/flutter_responsive_kit
+repository: https://github.com/waqarulnaqvi/flutter_responsive_plus
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
