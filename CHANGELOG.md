@@ -1,9 +1,7 @@
-## 1.0.1
+## 2.0.0
 
 - Fixed `pubspec.yaml` description length (now within 60–180 characters).
 - Removed unreachable `homepage` URL to pass pub.dev validation.
-
-## 1.0.0
 
 ### ✨ Core
 - `ResKit` global namespace — sizing, screen info, breakpoints, platform, accessibility.
@@ -18,28 +16,21 @@
 - `ResKit.reducedMotion` / `.highContrast` / `.boldText` / `.invertColors` / `.accessibleNavigation`.
 
 ### ✨ Typography (`ResKitTypography`)
-- Full type scale: `display` / `displaySmall` / `h1`–`h6` / `titleLarge`–`Small` /
-  `bodyLarge`–`Small` / `labelLarge`–`Small` / `caption` / `overline` / `button` /
-  `custom` / `fluid` / `adaptive`.
+- Full type scale: `display` / `displaySmall` / `h1`–`h6` / `titleLarge`–`Small` / `bodyLarge`–`Small` / `labelLarge`–`Small` / `caption` / `overline` / `button` / `custom` / `fluid` / `adaptive`.
 - `ResKitTextTheme.build()` — complete Flutter `TextTheme` from the active Figma canvas.
 - `ResKitTextTheme.merge()` — scale any existing `TextTheme` without losing styles.
 
 ### ✨ Spacing (`ResKitSpacing` / `ResKitInsets`)
-- 8 adaptive tokens: `xs2` / `xs` / `sm` / `md` / `lg` / `xl` / `xxl` / `xxxl` —
-  with breakpoint multipliers (1× mobile → 1.125× tablet → 1.25× desktop → 1.5× desktopLarge).
-- Pre-built `EdgeInsets` presets: `pagePadding` / `cardPadding` / `buttonPadding` /
-  `inputPadding` / `dialogPadding` / `bottomSheetPadding` + gap `SizedBox` helpers.
+- 8 adaptive tokens: `xs2` / `xs` / `sm` / `md` / `lg` / `xl` / `xxl` / `xxxl` — with breakpoint multipliers (1× mobile → 1.125× tablet → 1.25× desktop → 1.5× desktopLarge).
+- Pre-built `EdgeInsets` presets: `pagePadding` / `cardPadding` / `buttonPadding` / `inputPadding` / `dialogPadding` / `bottomSheetPadding` + gap `SizedBox` helpers.
 
 ### ✨ Grid (`ResKitGrid` / `ResKitFlexGrid`)
-- `ResKitGrid` — 12-column responsive grid; per-item span declarations across `xs` / `mobile` /
-  `tablet` / `desktop` / `desktopLarge`.
+- `ResKitGrid` — 12-column responsive grid; per-item span declarations across `xs` / `mobile` / `tablet` / `desktop` / `desktopLarge`.
 - `ResKitGridItem` — grid cell with span control per breakpoint.
 - `ResKitFlexGrid` — auto-flow grid with `minItemWidth` (CSS `auto-fill` / `minmax` equivalent).
 
 ### ✨ Navigation (`ResKitNavScaffold`)
-- Single widget that auto-switches:
-  mobile → `BottomNavigationBar` | tablet → `NavigationRail` (collapsed) |
-  tabletLarge → `NavigationRail` (extended) | desktop → `NavigationDrawer` sidebar.
+- Single widget that auto-switches: mobile → `BottomNavigationBar` | tablet → `NavigationRail` (collapsed) | tabletLarge → `NavigationRail` (extended) | desktop → `NavigationDrawer` sidebar.
 - `ResKitNavDestination` — destination model with optional badge.
 
 ### ✨ Images
@@ -48,13 +39,9 @@
 - `ResKitDecorationImage` — breakpoint-aware `DecorationImage` helper.
 
 ### ✨ Theme Integration
-- `ResKitThemeData.build()` — full Material 3 `ThemeData` with all dimensions scaled:
-  AppBar / Cards / Buttons (elevated / outlined / filled / text) / `InputDecoration` /
-  Chips / Dialogs / BottomSheets / BottomNav / `NavigationRail` / `ListTile` /
-  Icons / Dividers / Snackbar / Tooltip / FAB.
+- `ResKitThemeData.build()` — full Material 3 `ThemeData` with all dimensions scaled.
 - `ResKitTheme` — `InheritedWidget` for custom theme tokens.
-- `ResKitThemeExtension` — `ThemeExtension<T>` with `lerp` for card / button / input radii,
-  page padding, and section spacing.
+- `ResKitThemeExtension` — `ThemeExtension<T>` with `lerp` for card / button / input radii, page padding, and section spacing.
 
 ### ✨ Accessibility (`ResKitAccessibility`)
 - `reducedMotion` / `highContrast` / `boldText` / `invertColors` / `accessibleNav`.
@@ -83,13 +70,9 @@
 
 ### ✨ Extensions
 - `num` / `int` / `double` — `.w` `.h` `.r` `.sp` `.dp` `.pt` `.sw` `.sh`.
-- `EdgeInsets` — `.scaled`.
-- `Size` — `.scaled`.
-- `BuildContext` — 50+ getters and methods: `responsiveBuilder()` / `activeDesign` /
-  `figmaWidth` / `figmaHeight` / `isRTL` / `isDarkMode` / `reducedMotion` /
-  `highContrast` / `fluidSp()`.
+- `EdgeInsets` / `Size` — `.scaled`.
+- `BuildContext` — 50+ getters and methods.
 
 ### ✨ Utils (`ResKitUtils`)
 - Grid math / `textStyle` / aspect-fit / `usableHeight` / `clamp` / `byOrientation` / `diagnosticMap`.
-- `ResKit.debugPrint()` — full diagnostic dump: active canvas, scale factors, breakpoints,
-  safe area, accessibility flags, platform, and sample values.
+- `ResKit.debugPrint()` — full diagnostic dump.
