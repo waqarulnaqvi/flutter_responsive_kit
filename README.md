@@ -1,9 +1,8 @@
-# flutter_responsive_kit
+# flutter_responsive_plus
 
-> **The complete Flutter responsive & adaptive toolkit — v2.0**  
-> Every pattern a production app needs. One package. One import.
+> **The complete Flutter responsive & adaptive toolkit — v1.0.2** > Every pattern a production app needs. One package. One import.
 
-[![pub version](https://img.shields.io/pub/v/flutter_responsive_kit.svg)](https://pub.dev/packages/flutter_responsive_kit)
+[![pub version](https://img.shields.io/pub/v/flutter_responsive_plus.svg)](https://pub.dev/packages/flutter_responsive_plus)
 [![Flutter](https://img.shields.io/badge/Flutter-3.10%2B-blue)](https://flutter.dev)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -33,7 +32,7 @@
 
 ```yaml
 dependencies:
-  flutter_responsive_kit: ^2.0.0
+  flutter_responsive_plus: ^1.0.2
 ```
 
 ```dart

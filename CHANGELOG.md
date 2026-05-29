@@ -1,4 +1,4 @@
-## 2.0.0
+## 1.0.2
 
 - Fixed `pubspec.yaml` description length (now within 60–180 characters).
 - Removed unreachable `homepage` URL to pass pub.dev validation.
